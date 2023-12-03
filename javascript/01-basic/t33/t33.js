@@ -1,3 +1,5 @@
+//Use Bracket Notation to Find the First Character in a String
+
 // Setup
 let firstLetterOfLastName = "";
 const lastName = "Lovelace";

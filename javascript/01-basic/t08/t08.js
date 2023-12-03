@@ -1,3 +1,5 @@
+//Understanding Case Sensitivity in Variables
+
 // Variable declarations
 var studlyCapVar;
 var properCamelCase;

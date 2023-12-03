@@ -1,3 +1,5 @@
+//Understanding Uninitialized Variables
+
 // Only change code below this line
 var a = 5;
 var b = 10;
