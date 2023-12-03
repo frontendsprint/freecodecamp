@@ -5,6 +5,6 @@ const myAdjective = "big";
 const myVerb = "ran";
 const myAdverb = "quickly";
 
-// Змініть код лише під цим рядком
+// Only change code below this line
 const wordBlanks = "This " + myNoun + " was " + myAdjective + " and it " + myVerb + " so " + myAdverb + "."; // Змініть цей рядок
-// Змініть код лише над цим рядком
+// Only change code above this line
