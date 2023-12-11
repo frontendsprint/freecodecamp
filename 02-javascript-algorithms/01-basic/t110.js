@@ -1,5 +1,7 @@
-function convertToInteger(str) {
-    return parseInt (str, 2);
+//Use the Conditional (Ternary) Operator
+
+function checkEqual(a, b) {
+    return a === b ? "Equal" : "Not Equal";
 }
 
-convertToInteger("10011");
+checkEqual(1, 2);
