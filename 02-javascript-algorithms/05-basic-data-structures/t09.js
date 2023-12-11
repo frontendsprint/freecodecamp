@@ -2,7 +2,7 @@
 
 function spreadOut() {
     let fragment = ['to', 'code'];
-    let sentence = ['learning', ...fragment, 'is', 'fun']; // Змініть цей рядок
+    let sentence = ['learning', ...fragment, 'is', 'fun'];
     return sentence;
 }
 
