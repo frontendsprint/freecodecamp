@@ -1,8 +1,8 @@
 //Remove Items from an Array with pop() and shift()
 
 function popShift(arr) {
-    let popped = arr.pop(); // Change this line
-    let shifted = arr.shift(); // Change this line
+    let popped = arr.pop();
+    let shifted = arr.shift();
     return [shifted, popped];
   }
   
