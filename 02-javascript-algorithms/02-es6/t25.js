@@ -1,6 +1,5 @@
-//Use * to Import Everything from a File
+//Import a Default Export
 
-import * as stringFunctions from './string_functions.js'
+import subtract from './math_functions.js';
+subtract(7,4);
 
-stringFunctions.uppercaseString("hello");
-stringFunctions.lowercaseString("WORLD!");
