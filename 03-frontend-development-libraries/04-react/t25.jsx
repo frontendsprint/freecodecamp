@@ -2,14 +2,20 @@ class MyComponent extends React.Component {
     constructor(props) {
       super(props);
       this.state = {
-        name: 'freeCodeCamp'
-      }
+        text: "Hello"
+      };
+      this.handleClick = this.handleClick.bind(this); 
     }
-    render() {    
-      const name = this.state.name;    
+    handleClick() {
+      this.setState({
+        text: "You clicked!"
+      });
+    }
+    render() {
       return (
-        <div>             
-            <h1>{name}</h1>   
+        <div>        
+          <button onClick = {this.handleClick}>Click Me</button>        
+          <h1>{this.state.text}</h1>
         </div>
       );
     }

@@ -1,14 +1,14 @@
-class StatefulComponent extends React.Component {
+class MyComponent extends React.Component {
     constructor(props) {
-      super(props);      
-        this.state = {
-          firstName: 'Jon'
-        }      
+      super(props);
+      this.state = {
+        name: 'freeCodeCamp'
+      }
     }
     render() {
       return (
-        <div>
-          <h1>{this.state.firstName}</h1>
+        <div>        
+            <h1>{this.state.name}</h1>        
         </div>
       );
     }

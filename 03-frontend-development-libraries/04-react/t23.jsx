@@ -5,10 +5,11 @@ class MyComponent extends React.Component {
         name: 'freeCodeCamp'
       }
     }
-    render() {
+    render() {    
+      const name = 'freeCodeCamp';    
       return (
-        <div>        
-            <h1>{this.state.name}</h1>        
+        <div>       
+            <h1>{name}</h1>        
         </div>
       );
     }
